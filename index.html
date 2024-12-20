@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -14,11 +18,11 @@
 
     <header>
       <nav>
+        <div id="headerdiv">
+          <img src="./images/logo_baroque works.png" alt="logo du site" />
+          <h2>Welcome to my territory</h2>
+        </div>
         <ul>
-          <li>
-            <img src="./images/logo_baroque works.png" alt="logo du site" />
-            Welcome to my territory
-          </li>
           <li><a href="#aboutMe">About me </a></li>
           <li><a href="#myWorks">My works</a></li>
           <li><a href="#myContact">Contact</a></li>
@@ -39,45 +43,53 @@
       </section>
       <section id="aboutMe">
         <hgroup>
-          <h3>Who am i ?</h3>
+          <h3>Who am I?</h3>
           <p>
-            My name is Florian im also known as Soosuuke on
+            My name is Florian, also known as Soosuuke on
             <a href="https://github.com/Soosuukee" target="_blank">Github</a>,
-            i'm 22 years old and an aspiring Web developer learning modern web
+            I'm 22 years old and an aspiring web developer learning modern web
             technologies.
           </p>
-          <p>Here are the technologies that i master and still improving on</p>
+          <p>Here are the technologies I master and am still improving on:</p>
         </hgroup>
         <ul>
-          <img src="./images/icon figma.svg" alt="" />
-          <img src="./images/logo css.svg" alt="" />
-          <img src="./images/logo_Angular.svg" alt="" />
-          <img src="./images/logo_git.svg" alt="" />
-          <img src="./images/logo_html.svg" alt="" />
-          <img src="./images/logo_javascript.svg" alt="" />
-          <img src="./images/logo_php.svg" alt="" />
-          <img src="./images/logo_postgresql.svg" alt="" />
-          <img src="./images/logo_python.svg" alt="" />
-          <img src="./images/logo_MySQL.svg" alt="" />
-          <img src="./images/logo_react.svg" alt="" />
-          <img src="./images/logo_wordpress.svg" alt="" />
-          <img src="./images/logo_symfonny.svg" alt="" />
-          <img src="./images/logo_wamp.svg" alt="" />
-          <img src="./images/logo_html.svg" alt="" />
+          <li><img src="./images/icon_figma.svg" alt="Figma" /></li>
+          <li><img src="./images/logo_css.svg" alt="CSS" /></li>
+          <li><img src="./images/logo_Angular.svg" alt="Angular" /></li>
+          <li><img src="./images/logo_git.svg" alt="Git" /></li>
+          <li><img src="./images/logo_html.svg" alt="HTML" /></li>
+          <li><img src="./images/logo_javascript.svg" alt="JavaScript" /></li>
+          <li><img src="./images/logo_php.svg" alt="PHP" /></li>
+          <li><img src="./images/logo_postgresql.svg" alt="PostgreSQL" /></li>
+          <li><img src="./images/logo_python.svg" alt="Python" /></li>
+          <li><img src="./images/logo_MySQL.svg" alt="MySQL" /></li>
+          <li><img src="./images/logo_react.svg" alt="React" /></li>
+          <li><img src="./images/logo_wordpress.svg" alt="WordPress" /></li>
+          <li><img src="./images/logo_symfonny.svg" alt="Symfony" /></li>
+          <li><img src="./images/logo_wamp.svg" alt="WAMP" /></li>
         </ul>
       </section>
       <section>
         <hgroup>
           <h3>My works</h3>
-          <p>Explore the websites I’ve designed and built.</p>
+          <p>Explore the websites I've designed and built:</p>
         </hgroup>
-        <div id="portofolioSection">
-          <div class="projectCard"></div>
+        <div id="portfolioSection">
+          <div class="projectCard">
+            <h4>Website 1</h4>
+            <div class="visualizer"></div>
+          </div>
+          <div class="projectCard">
+            <h4>Website 2</h4>
+            <div class="visualizer"></div>
+          </div>
+          <div class="projectCard">
+            <h4>Website 3</h4>
+            <div class="visualizer"></div>
+          </div>
         </div>
       </section>
     </main>
-
-    <!-- Appel du script -->
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,6 +1,9 @@
 const videoIntro = document.getElementById("video-intro");
-const mainContent = document.querySelectorAll("header, section");
+const mainContent = document.querySelectorAll("header, main");
 const video = videoIntro.querySelector("video");
+
+// Bloquer le scroll pendant l'intro
+document.body.style.overflow = "hidden";
 
 // Attendre la fin de la vidéo
 video.addEventListener("ended", () => {
